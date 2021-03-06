@@ -1,0 +1,20 @@
+<Configuration ID="58b86240-fbb6-41d6-85a4-f75e4df54cfd">
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2019">
+    <Product ID="ProPlus2019Volume" PIDKEY="NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Publisher" />
+	<ExcludeApp ID="Teams"/>
+    </Product>
+  </Add>
+  <Property Name="PinIconsToTaskbar" Value="TRUE" />
+  <Property Name="AUTOACTIVATE" Value="0" />
+  <Updates Enabled="FALSE" />
+  <RemoveMSI />
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>
